@@ -17,10 +17,11 @@ class SwitchCase:
             self.true = SwitchCase.Switch.mylist[0] == self.check
             self.false = SwitchCase.Switch.mylist[0] != self.check
 
-number = 1
 
 switch = SwitchCase.Switch
 case = SwitchCase.Case
+
+number = 1
 
 with switch(number):
     if case(5).true:
